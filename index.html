@@ -11,31 +11,35 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
-  <body>
+  <body class="master">
     <header>
-      <a href="#"> <p>Webstudio</p> </a>
-      <nav>
+      <a class="logo" href="index.html">
+        <p><span>Web</span>Studio</p>
+      </a>
+      <nav class="web-navigate">
         <ul>
           <li><a href="#">Agencja</a></li>
-          <li><a href="/portfolio.html">Portfolio</a></li>
+          <li><a class="active" href="./portfolio.html">Portfolio</a></li>
           <li><a href="#">Kontakt</a></li>
         </ul>
       </nav>
-      <a href="info@devstudio.com">info@devstudio.com </a>
-      <a href="+48111111111">+48 111 111 111</a>
+      <span class="contact">
+        <a class="email" href="info@devstudio.com">info@devstudio.com </a>
+        <a class="phone-number" href="+48111111111">+48 111 111 111</a>
+      </span>
     </header>
     <!-- Hasło reklamowe-->
     <main>
-      <section>
+      <section class="slogan">
         <div>
           <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
         </div>
-        <button type="button" class="button">Zamów usługe</button>
+        <button type="button" class="button">Zamów usługę</button>
       </section>
       <!-- Nasze atuty-->
-      <section>
+      <section class="content">
         <div>
           <ul>
             <li>
@@ -70,7 +74,7 @@
         </div>
       </section>
       <!--Czym się zajmujemy-->
-      <section>
+      <section class="our-job">
         <h2>Czym się zajmujemy</h2>
         <div>
           <ul>
@@ -102,7 +106,7 @@
         </div>
       </section>
       <!--Nasz zespół-->
-      <section>
+      <section class="our-team">
         <h2>Nasz zespół</h2>
         <div>
           <ul>
@@ -152,20 +156,29 @@
     </main>
     <footer>
       <!-- Kontakt -->
-      <div>
-        <a href="#"> <p>Webstudio</p> </a>
+      <div class="foot">
+        <a class="logo" href="#">
+          <p><span>Web</span>Studio</p>
+        </a>
         <address>
           <ul>
             <li>
-              <a href="https://goo.gl/maps/cqz7K71rxckniunE8" target="_blank"
+              <a
+                class="headquarter"
+                href="https://goo.gl/maps/cqz7K71rxckniunE8"
+                target="_blank"
                 >m. Warszawa, Aleje Jerozolimskie 21</a
               >
             </li>
             <li>
-              <a href="mailto:info@example.com">info@example.com</a>
+              <a class="email" href="mailto:info@example.com"
+                >info@example.com</a
+              >
             </li>
             <li>
-              <a href="tel:+48111111111">+48 111 111 111</a>
+              <a class="phone-number" href="tel:+48111111111"
+                >+48 111 111 111
+              </a>
             </li>
           </ul>
         </address>

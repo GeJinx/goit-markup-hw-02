@@ -5,30 +5,66 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" type="text/css" />
+   
+    <style>
+      /* body {
+        font-family: "Roboto", sans-serif;
+        color: #212121; 
+    }
+    .logo {
+        font-family: "Raleway", sans-serif;
+        font-size: 26px;  
+    }
+    .top {
+        font-size:14px;
+        line-height: auto;
+    
+    }
+    .mail-phone {
+        font-size: 14px;
+        color:#757575;
+    }
+    .img-text-under {
+        color:#757575;
+    } */
+  </style> 
+  
+</head>
   </head>
   <body>
     <header>
-      <a href="/index.html"> <p>Webstudio</p> </a>
+      <a href="index.html"><p class="logo">Webstudio</p></a>
       <nav>
-        <ul>
-          <li><a href="#">Agencja</a></li>
-          <li><a href="/portfolio.html">Portfolio</a></li>
-          <li><a href="#">Kontakt</a></li>
+        <ul class="top">
+          <li><a href="#" class="lnk">Agencja</a></li>
+          <li><a href="./portfolio.html" class="lnk">Portfolio</a></li>
+          <li><a href="#" class="lnk">Kontakt</a></li>
         </ul>
       </nav>
-      <a href="info@devstudio.com">info@devstudio.com </a>
-      <a href="+48111111111">+48 111 111 111</a>
+      <ul class="mail-phone">
+      <a href="info@devstudio.com" class="lnk">info@devstudio.com </a>
+      <a href="+48111111111" class="lnk">+48 111 111 111</a>
+    </ul>
     </header>
     <main>
       <!-- przyciski filtrów-->
       <section>
-        <ul>
-          <li><button type="button" class="button">Wszystkie</button></li>
-          <li><button type="button" class="button">Strony</button></li>
-          <li><button type="button" class="button">Dizajn</button></li>
-          <li><button type="button" class="button">Marketing</button></li>
-          <li><button type="button" class="button">Aplikacje</button></li>
-        </ul>
+        <div>
+          <ul>
+            <li><button type="button" class="button">Wszystkie</button></li>
+            <li><button type="button" class="button">Strony</button></li>
+            <li><button type="button" class="button">Dizajn</button></li>
+            <li><button type="button" class="button">Marketing</button></li>
+            <li><button type="button" class="button">Aplikacje</button></li>
+          </ul>
+        </div>
       </section>
       <!-- portfolio elementy -->
       <section>
@@ -77,7 +113,7 @@
             <li>
               <img
                 src="portfolio-grapf/g5.jpg"
-                alt="pódełka"
+                alt="dwa tekturowe pudełka"
                 width="370"
                 height="294"
               />
@@ -131,7 +167,7 @@
     <footer>
       <!-- Kontakt -->
       <div>
-        <a href="#"> <p>Webstudio</p> </a>
+        <a href="#"><p>Webstudio</p> </a>
         <address>
           <ul>
             <li>
@@ -140,7 +176,7 @@
               >
             </li>
             <li>
-              <a href="mailto:info@example.com">info@example.com</a>
+              <a href="mailto:info@example.com" class="lnk">info@example.com</a>
             </li>
             <li>
               <a href="tel:+48111111111">+48 111 111 111</a>
