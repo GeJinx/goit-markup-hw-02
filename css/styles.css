@@ -13,7 +13,7 @@ a.logo {
   color: #2196f3;
 }
 
-.web-navigate li {
+.web-navigate li > a {
   text-decoration: none;
   list-style: none;
 }
