@@ -13,8 +13,9 @@ a.logo {
   color: #2196f3;
 }
 
-.web-navigate a {
+.web-navigate li {
   text-decoration: none;
+  list-style: none;
 }
 .web-navigate a:hover,
 a:focus {
